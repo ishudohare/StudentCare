@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">FinalPre</string>
+
+    <string name="large_text">
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_overall">Overall</string>
+    <string-array name="nav_item_activity_titles">
+        <item>camara</item>
+        <item>gallery</item>
+        <item>manage</item>
+        <item>slideshow</item>
+        <item>send</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_weekly_schedule">WeeklySchedule</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_tomorrow">Tomorrow</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_udhar">Udhar</string>
+    <string name="title_activity_delete">delete</string>
+    <string name="prompt_email">Email</string>
+
+    <string name="prompt_password">Password (optional)</string>
+
+    <string name="action_sign_in">Sign in or register</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+
+    <string name="error_invalid_password">This password is too short</string>
+
+    <string name="error_incorrect_password">This password is incorrect</string>
+
+    <string name="error_field_required">This field is required</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions." </string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_reminder">Reminder</string>
+    <string name="title_edit_notes_activity">Note</string>
+    <!-- -->
+    <string name="no_notes_text">Press \'+\' to add new note</string>
+    <string name="note_title">Title</string>
+    <string name="note_body">Note</string>
+    <!-- -->
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <!-- -->
+    <string-array name="colourNames">
+        <item>Blue</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>White</item>
+    </string-array>
+    <!-- -->
+    <string-array name="fontSizeNames">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <!-- -->
+    <string name="action_search">Search</string>
+    <string name="action_rate_app">Rate app</string>
+    <string name="action_backup">Backup notes</string>
+    <string name="action_restore">Restore notes</string>
+    <string name="action_note_colour">Note colour</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_selected_number">Selected</string>
+    <string name="action_font_size">Note font size</string>
+    <string name="action_hide_body">Hide note body in list</string>
+    <string name="action_show_body">Show note body in list</string>
+    <!-- -->
+    <string name="dialog_delete">Selected notes will be deleted!</string>
+    <string name="dialog_note_colour">Change note colour</string>
+    <string name="dialog_save_changes">Save changes?</string>
+    <string name="dialog_font_size">Change note font size</string>
+    <string name="dialog_rate_title">Rate app</string>
+    <string name="dialog_rate_message">Open app in Play Store?
+        (Thank you for rating! We really appreciate it!)</string>
+    <string name="dialog_check_backup_if_sure">Are you sure you want to backup current notes?</string>
+    <string name="dialog_backup_created_title">Backup successful</string>
+    <string name="dialog_backup_created">Backup created in</string>
+    <string name="dialog_check_restore_if_sure">Are you sure you want to restore backup notes?
+        (Cannot be undone)</string>
+    <string name="dialog_restore_failed_title">No backup found</string>
+    <string name="dialog_restore_failed">To restore notes, the backup file
+        has to be in \'External/Swiftnotes/swiftnotes_backup.json\'</string>
+    <!-- -->
+    <string name="new_note_content_description">New note</string>
+    <string name="favourite_content_description">Favourite</string>
+    <!-- -->
+
+    <string name="subscription_key">fcfd4e81b5b14718b7a921993285de87</string>
+    <string name="add_subscription_key_tip_title">Subscription Key is Needed</string>
+    <string name="add_subscription_key_tip">Please put your subscription key to source file \"app/res/values/strings.xml\" to enable Vision API calls.</string>
+
+
+    <string name="title_activity_analyze">Analyze Image</string>
+    <string name="title_activity_analyze_domain">Analyze Image In Domain</string>
+    <string name="title_activity_describe">Describe Image</string>
+    <string name="title_activity_recognize">Recognize Text</string>
+    <string name="title_activity_thumbnail">Thumbnail Image</string>
+
+    <!-- Select image activity -->
+    <string name="select_an_image">Select an Image</string>
+    <string name="take_photo">Take a Photo</string>
+    <string name="select_image_in_album">From Gallery</string>
+
+
+    <!-- -->
+
+    <string name="toast_deleted">Delete successful</string>
+    <string name="toast_new_note">Note created</string>
+    <string name="toast_note_saved">Note saved</string>
+    <string name="toast_empty_note_discarded">Empty note discarded</string>
+    <string name="toast_edittext_cannot_be_empty">Title cannot be empty</string>
+    <string name="toast_note_body_hidden">Note body will now be hidden in notes list</string>
+    <string name="toast_note_body_showing">Note body will now be shown in notes list</string>
+    <string name="toast_backup_failed">Backup unsuccessful</string>
+    <string name="toast_backup_no_notes">No notes to backup</string>
+    <string name="toast_restore_successful">Notes restored</string>
+    <string name="toast_restore_unsuccessful">Restore unsuccessful</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_udhar_db_down">udharDbDown</string>
+
+</resources>

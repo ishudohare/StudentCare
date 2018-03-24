@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" >
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1"
+        android:elevation="8dp"
+        android:background="#c8faee">
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Analyze Image"
+            android:textStyle="italic"
+            android:elevation="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+
+
+
+            android:id="@+id/button_analyze"
+            android:layout_gravity="left"
+            android:onClick="activityAnalyze"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:textColorLink="#05525e" /><![CDATA[
+
+        />
+
+
+        ]]>
+
+        <Button
+            android:layout_width="150dp"
+            android:textStyle="italic"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:elevation="20dp"
+
+            android:text="Describe Image"
+            android:id="@+id/button_describe"
+            android:layout_gravity="center_horizontal"
+            android:onClick="activityDescribe"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:textColorLink="#05525e"
+            android:layout_alignTop="@+id/button_analyze"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Recognize Text"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/button_recognize"
+            android:elevation="20dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="activityRecognize"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:textColorLink="#05525e"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/button_analyze"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/button_analyze" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:elevation="20dp"
+            android:textStyle="italic"
+            android:text=""
+            android:id="@+id/button_scan"
+            android:layout_gravity="center_horizontal"
+            android:onClick="activityThumbnail"
+            android:background="#fffafa"
+            android:textSize="17dp"
+            android:layout_alignTop="@+id/button_recognize"
+            android:layout_alignEnd="@+id/button_describe"
+            android:layout_toEndOf="@+id/button_recognize"
+            android:layout_alignStart="@+id/button_describe"
+            android:visibility="invisible"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+
+            android:gravity="bottom"
+            android:text="Microsoft will receive the images you upload and may use them to improve Vision API and related services. By submitting an image, you confirm that you have consent from everyone in it."
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="43dp"
+            android:id="@+id/textView" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Today's Schedule" />
+        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Tomorrow's Schedule" />
+        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Classes" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Add Subject" />
+
+        <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Money Management">
+        <menu>
+
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Loan /Credit" />
+        </menu>
+    </item>
+    <item android:title="Notes">
+        <menu>
+            <item android:id="@+id/AddNotes" android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="Add Notes"
+                />
+            <item android:id="@+id/MicCog"
+                android:title="Microsoft Cognitive Service"
+                android:icon="@android:drawable/ic_menu_camera"
+                />
+        </menu>
+    </item>
+    <item android:title="To Do's &amp; Reminders">
+        <menu>
+            <item android:id="@+id/todo" android:icon="@android:drawable/btn_minus"
+                android:title="To Do's"
+                />
+            <item android:id="@+id/Reminder"
+                android:title="Reminder"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                />
+        </menu>
+    </item>
+</menu>

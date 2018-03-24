@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="213dp"
+            android:layout_height="247dp"
+            android:onClick="image"
+            android:id="@+id/personpic"
+            android:src="@drawable/profilepic"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:capitalize="words"
+            android:ems="10"
+            android:id="@+id/personname"
+
+            android:layout_gravity="center"
+            android:autoText="true"
+            android:allowUndo="true"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <View
+            android:layout_weight=".1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/save"
+            android:onClick="done"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

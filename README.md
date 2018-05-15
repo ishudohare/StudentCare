@@ -1,9 +1,9 @@
-# StudentCare-
+# StudentCare+
 All in solution for college students
 Features:-
-Attendance keeper
-Time table
-Money Management
-Custom Notes
-Implemented Microsoft Cognitive Services- Text from scanned image to notes,etc
+Attendance keeper "\n"
+Time table"\n"
+Money Management"\n"
+Custom Notes"\n"
+Implemented Microsoft Cognitive Services- Text from scanned image to notes,etc"\n"
 To-Do list
